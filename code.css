@@ -1,0 +1,62 @@
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    color: #444;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #666;
+    margin-top: 25px;
+}
+
+ul, ol, dl {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* Listes spéciales */
+.retrait {
+    padding-left: 40px;
+}
+
+.pas_de_retrait {
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+.cercle {
+    list-style-type: circle;
+}
+
+.carre {
+    list-style-type: square;
+}
+
+.rien {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.commence_a_zero {
+    list-style-type: decimal-leading-zero;
+}
+
+.lettres_minuscules {
+    list-style-type: lower-alpha;
+}
+
+.chiffres_romains {
+    list-style-type: upper-roman;
+}
+
+.lettres_grecques {
+    list-style-type: lower-greek;
+}

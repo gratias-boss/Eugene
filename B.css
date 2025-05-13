@@ -1,0 +1,68 @@
+/* Appliquer un fond gris et styliser le menu */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Conteneur du menu */
+.menu-container {
+    background-color: #fff;
+    color: #000000;
+    padding: 10px;
+    max-width: 300px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Titre du menu */
+.menu-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #51ff00; /* Or pour le titre */
+}
+
+/* Liste des liens du menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Chaque élément de la liste */
+nav ul li {
+    margin: 10px 0;
+}
+
+/* Liens du menu */
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+    background-color: #555;
+    border-radius: 4px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+
+
+/* Repositionner le menu en responsive sur mobile */
+@media (max-width: 600px) {
+    .menu-container {
+        max-width: 90%;
+    }
+    
+    .menu-container h2 {
+        font-size: 20px;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+}

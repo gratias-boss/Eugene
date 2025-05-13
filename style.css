@@ -1,0 +1,75 @@
+/* style.css */
+
+/* Applique un fond blanc à toute la page */
+body {
+    background-color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333333;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Style général pour les titres */
+h3 {
+    color: #004080;
+    margin-top: 30px;
+    border-left: 6px solid #004080;
+    padding-left: 10px;
+    background-color: #f0f8ff;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+/* Stylise les divs contenant du texte */
+div {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+/* Style pour les paragraphes */
+p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Style des listes */
+ol {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Style du lien d'en-tête */
+a {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Table contenant les logos et le titre */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    background-color: #f9f9f9;
+}
+
+th {
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+}
+
+/* Image responsive */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
